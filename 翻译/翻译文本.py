@@ -25,7 +25,7 @@ def run_babeldoc(pdf, input_dir, working_dir, api_key):
 
 def main(input_dir):
     working_dir = r"C:/Users/15611/Desktop/translate"
-    api_key = "sk-d96b43a1d6c1403283b15d791cd5cad4"
+    api_key = ""
 
     # 查找目录下所有 PDF 文件
     pdf_files = glob.glob(os.path.join(input_dir, "*.pdf"))
